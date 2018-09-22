@@ -1,6 +1,7 @@
 
 # FreePalm
 Zoohackathon New Delhi 2018
+Organised by US Embassy
 
 
 ## Motivation
