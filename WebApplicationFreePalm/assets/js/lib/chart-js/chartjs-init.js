@@ -7,12 +7,12 @@
     var myChart = new Chart( ctx, {
         type: 'line',
         data: {
-            labels: [ "2010", "2011", "2012", "2013", "2014", "2015", "2016" ],
+            labels: [ "2006", "2008", "2010", "2012", "2014", "2015", "2016" ],
             type: 'line',
             defaultFontFamily: 'Montserrat',
             datasets: [ {
-                data: [ 0, 7, 3, 5, 2, 10, 7 ],
-                label: "Expense",
+                data: [ 34, 41, 50, 48, 57, 55, 62],
+                label: "Million Metric tons Palm oil",
                 backgroundColor: 'rgba(0,103,255,.15)',
                 borderColor: 'rgba(0,103,255,0.5)',
                 borderWidth: 3.5,
@@ -86,8 +86,8 @@
             type: 'line',
             defaultFontFamily: 'Montserrat',
             datasets: [ {
-                label: "Foods",
-                data: [ 0, 30, 10, 120, 50, 63, 10 ],
+                label: "Other Vegetable oil",
+                data: [ 0, 30, 10, 30, 23, 49, 63 ],
                 backgroundColor: 'transparent',
                 borderColor: 'rgba(220,53,69,0.75)',
                 borderWidth: 3,
@@ -96,8 +96,8 @@
                 pointBorderColor: 'transparent',
                 pointBackgroundColor: 'rgba(220,53,69,0.75)',
                     }, {
-                label: "Electronics",
-                data: [ 0, 50, 40, 80, 40, 79, 120 ],
+                label: "Palm Oil",
+                data: [ 0, 50, 40, 80, 120, 159, 180 ],
                 backgroundColor: 'transparent',
                 borderColor: 'rgba(40,167,69,0.75)',
                 borderWidth: 3,
@@ -211,22 +211,15 @@
     var myChart = new Chart( ctx, {
         type: 'bar',
         data: {
-            labels: [ "January", "February", "March", "April", "May", "June", "July" ],
+            labels: [ "1930", "1940", "1950", "1960", "1970", "1980", "1990", "2000", "2010", "2020" ],
             datasets: [
                 {
-                    label: "My First dataset",
-                    data: [ 65, 59, 80, 81, 56, 55, 40 ],
+                    label: "Orangutan population",
+                    data: [ 212500, 200678, 175000, 164350, 150000, 137500, 100000, 75000, 62500, 46000 ],
                     borderColor: "rgba(0, 123, 255, 0.9)",
                     borderWidth: "0",
                     backgroundColor: "rgba(0, 123, 255, 0.5)"
                             },
-                {
-                    label: "My Second dataset",
-                    data: [ 28, 48, 40, 19, 86, 27, 90 ],
-                    borderColor: "rgba(0,0,0,0.09)",
-                    borderWidth: "0",
-                    backgroundColor: "rgba(0,0,0,0.07)"
-                            }
                         ]
         },
         options: {
@@ -379,14 +372,14 @@
     var myChart = new Chart( ctx, {
         type: 'bar',
         data: {
-            labels: [ "Sun", "Mon", "Tu", "Wed", "Th", "Fri", "Sat" ],
+            labels: [ "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016" ],
             datasets: [
                 {
-                    label: "My First dataset",
-                    data: [ 40, 55, 75, 81, 56, 55, 40 ],
-                    borderColor: "rgba(0, 123, 255, 0.9)",
+                    label: "Palm Oil Production ",
+                    data: [ 25000, 27889, 30000, 34900, 40000, 42000, 45000,51000, 54000, 56430, 59000, 65000   ],
+                    borderColor: "rgba(760, 103, 100, 0.9)",
                     borderWidth: "0",
-                    backgroundColor: "rgba(0, 123, 255, 0.5)"
+                    backgroundColor: "rgba(760, 103, 100, 0.3)"
                             }
                         ]
         },

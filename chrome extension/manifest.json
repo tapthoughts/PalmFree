@@ -1,17 +1,28 @@
 {   
     "manifest_version": 2,
     "name": "trying push notification",
+
     "version": "1.0",
-    "permissions": ["notifications", "activeTab", "declarativeContent" ],
+    "permissions": ["notifications", "activeTab", "declarativeContent", "tabs", "https://www.flipkart.com/*" ],
     "description": "try push notification!",
     "icons":{ "1000" : "icon.png"},
     "background": {
     "scripts": ["background.js"]
     },
-    "page_action": {
+    
+"content_scripts":[
+    {
+        "matches":["https://www.flipkart.com/*"],
+        "js":["jquery-3.3.1.min.js","contentscript.js"],
+        "run_at": "document_end"
+    }
+],
+    "browser_action": {
         "default_popup": "index.html",
         "default_icon": "icon.png"
     }
     
   
   }
+
+  
