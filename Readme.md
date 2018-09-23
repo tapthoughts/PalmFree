@@ -1,17 +1,11 @@
 
 # FreePalm
 Zoohackathon New Delhi 2018
-Organised by US Embassy
 
+more documentation coming up
 
-## Motivation
-
-## Tech/framework used
-
-<b>Built with</b>
-
-
-## API Reference
+## Presentation
+wwww.slides.com/anmolg/deck-1
 
 
 ## License
