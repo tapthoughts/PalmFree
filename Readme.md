@@ -1,6 +1,6 @@
 
 # FreePalm
-Zoohackathon New Delhi 2018
+
 
 more documentation coming up
 
